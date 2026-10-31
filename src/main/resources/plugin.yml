@@ -1,0 +1,18 @@
+name: 7xParkour
+version: '${project.version}'
+main: io.github.x71x7.xparkour.XParkour
+api-version: '1.20'
+authors: [71x7]
+description: Plugin de parkours.
+commands:
+  parkour:
+    aliases: [pk, parkours]
+    description: Comando principal de 7xParkour
+    usage: /<command> help
+permissions:
+  xparkour.play:
+    description: Jugar parkours
+    default: true
+  xparkour.admin:
+    description: Crear y administrar parkours
+    default: op
